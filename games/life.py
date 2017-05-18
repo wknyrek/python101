@@ -16,7 +16,7 @@ class Board(object):
         :param width: szerokość w pikselach
         :param height: wysokość w pikselach
         """
-        self.surface = pygame.display.set_mode((width, height), 0, 32)
+        self.surface = pygaddddddddddddddddddddddme.display.set_mode((width, height), 0, 32)
         pygame.display.set_caption('Game of life')
 
     def draw(self, *args):
